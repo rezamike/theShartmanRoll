@@ -95,7 +95,7 @@ class Calculator extends Component {
                         iterationCount="infinite"
                         style={{
                             fontSize: 60,
-                            marginTop: '10%',
+                            marginTop: '16%',
                             fontWeight: 'bold', 
                             color: 'white'
                         }}
@@ -130,9 +130,9 @@ class Calculator extends Component {
                             style={{
                                 height: '100%',
                                 width: '25%',
-                                fontSize: 36,
+                                fontSize: 42,
                                 position: 'relative',
-                                top: 85,
+                                top: 80,
                                 left: 25,
                                 color: 'red',
                                 fontWeight: 'bold'
@@ -161,8 +161,8 @@ class Calculator extends Component {
                         </Picker>
                     </View>
                 </View>
-                <View style={{ justifyContent: 'flex-start', alignItems: 'center', width: '100%', height: '30%' }}>
-                    <View style={{ marginBottom: 50 }}>
+                <View style={{ justifyContent: 'flex-start', alignItems: 'center', width: '100%', height: '30%', marginBottom: '16%' }}>
+                    <View style={{ marginBottom: '12%', height: '50%' }}>
                         <Text style={{ fontSize: 42, fontStyle: 'italic', fontWeight: 'bold', color: 'white' }}>
                             {this.state.dieCount1}<Text style={{ color: 'red' }}>d</Text>{this.state.dieCount2}
                         </Text>

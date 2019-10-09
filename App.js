@@ -15,7 +15,7 @@ export default function App() {
     <View style={styles.container}>
       <View style={styles.header}>
         <View style={styles.heading}>
-          <Text style={{ fontSize: 22, marginBottom: '4%', fontWeight: 'bold', }}>theShartman<Text style={{color: 'red'}}>Roll</Text></Text>
+          <Text style={{ fontSize: 22, marginBottom: '4%', fontWeight: 'bold' }}>theShartman<Text style={{color: 'red'}}>Roll</Text></Text>
         </View>
       </View>
       <View style={styles.container2}>

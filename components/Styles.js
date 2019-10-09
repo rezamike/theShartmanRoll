@@ -4,7 +4,7 @@ export default StyleSheet.create({
     container: {
         backgroundColor: 'transparent',
         width: '75%',
-        height: '90%',
+        height: '100%',
         justifyContent: 'center',
         alignItems: 'center'
     },
